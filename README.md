@@ -1,12 +1,29 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **portfolio website** built with **React + Vite**,
+It features a clean UI, responsive design, and fast performance for a smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ⚡ Built with **React + Vite** for fast development & performance  
+- 🎨 Styled with **Tailwind CSS** for a clean and modern design  
+- 📱 Fully responsive and mobile-friendly  
+- 🧩 Showcases **skills, projects, and About Me section**  
+- 🌍 Deployed on **Vercel**  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React**   
+- **Vite**   
+- **Tailwind CSS**  
+- **JavaScript**   
+- **Vercel** 
+
+---
+
+## ⚙️ Installation & Setup
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/akshat770/Akshat-S.git
