@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
         <div className="relative md:justify-self-end">
           <div className="mx-auto md:mx-0 aspect-square max-w-[420px] rounded-full border border-white/10 bg-gradient-to-br from-slate-900 to-slate-800 shadow-[0_0_0_1px_rgba(255,255,255,0.06)] overflow-hidden">
-            <img src="public/akshat.jpg" alt="Akshat Singh" className="h-full w-full object-cover rounded-full" />
+            <img src="/akshat.jpg" alt="Akshat Singh" className="h-full w-full object-cover rounded-full" />
           </div>
         </div>
       </div>

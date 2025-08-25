@@ -1,10 +1,10 @@
 import React from 'react'
 
 const projects = [
-  { title: 'To-Do', desc: 'A simple ToDo app but using redux-toolkit', link: 'https://to-do-eight-ivory.vercel.app/', img: '/public/todo.jpg' },
-  { title: 'Portfolio ', desc: 'Redesigned portfolio with Tailwind CSS and Vite+React.', link: '#', img: '/public/portfolio.jpg' },
-  { title: 'Currency Converter', desc: 'Fetches real-time currency exchange rates using the Fawaz Ahmed Currency API', link: 'https://currency-converter-xi-steel.vercel.app/', img: '/public/currency.jpg' },
-  { title: 'Guess The Number', desc: 'A simple game made with HTML, CSS, and JavaScript.', link: 'https://guess-the-number-theta-seven.vercel.app/', img: '/public/guess.jpg' },
+  { title: 'To-Do', desc: 'A simple ToDo app but using redux-toolkit', link: 'https://to-do-eight-ivory.vercel.app/', img: '/todo.jpg' },
+  { title: 'Portfolio ', desc: 'Redesigned portfolio with Tailwind CSS and Vite+React.', link: '#', img: '/portfolio.jpg' },
+  { title: 'Currency Converter', desc: 'Fetches real-time currency exchange rates using the Fawaz Ahmed Currency API', link: 'https://currency-converter-xi-steel.vercel.app/', img: '/currency.jpg' },
+  { title: 'Guess The Number', desc: 'A simple game made with HTML, CSS, and JavaScript.', link: 'https://guess-the-number-theta-seven.vercel.app/', img: '/guess.jpg' },
 ]
 
 function Projects() {
