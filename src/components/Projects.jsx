@@ -5,7 +5,7 @@ const projects = [
   { title: 'Portfolio ', desc: 'Redesigned portfolio with Tailwind CSS and Vite+React.', link: '#', img: '/portfolio.jpg' },
   { title: 'Currency Converter', desc: 'Fetches real-time currency exchange rates using the Fawaz Ahmed Currency API', link: 'https://currency-converter-xi-steel.vercel.app/', img: '/currency.jpg' },
   { title: 'Guess The Number', desc: 'A simple game made with HTML, CSS, and JavaScript.', link: 'https://guess-the-number-theta-seven.vercel.app/', img: '/guess.jpg' },
-  { title: 'HTTP Server', desc: 'A beginner-friendly HTTP server written in C for Windows using Winsock2. This server can handle GET, POST, PUT, and DELETE requests, logs requests to index.html, and sends dynamic HTML responses. Ideal for learning TCP/IP networking, sockets, and basic web server architecture.', link: 'https://github.com/akshat770/HTTP-Server-in-C', img: '/11494059.png' },
+  { title: 'HTTP Server', desc: 'A beginner-friendly HTTP server written in C for Windows using Winsock2. This server can handle GET, POST, PUT, and DELETE requests, logs requests to index.html, and sends dynamic HTML responses. Ideal for learning TCP/IP networking, sockets, and basic web server architecture.', link: 'https://github.com/akshat770/HTTP-Server-in-C', img: '/http.jpg' },
 ]
 
 function Projects() {
