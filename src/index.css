@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+/* Custom Cursor */
+.cc-ring, .cc-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  will-change: transform, width, height, opacity, background, border;
+}
+
+.cc-ring {
+  width: 36px;
+  height: 36px;
+  margin-left: -18px;
+  margin-top: -18px;
+  border-radius: 9999px;
+  border: 2px solid rgba(255,255,255,0.7);
+  transition: transform 120ms ease, background 120ms ease, opacity 150ms ease, border-color 150ms ease;
+  mix-blend-mode: difference;
+}
+
+.cc-dot {
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  margin-top: -3px;
+  border-radius: 9999px;
+  background: rgba(255,255,255,0.9);
+  transition: transform 60ms linear, opacity 200ms ease;
+  mix-blend-mode: difference;
+}
+
+.cc-ring.cc-active {
+  transform: scale(1.6) translate3d(var(--x, 0), var(--y, 0), 0);
+  border-color: rgba(255,255,255,1);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .cc-ring, .cc-dot { transition: none !important; }
+}
